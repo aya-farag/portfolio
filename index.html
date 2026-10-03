@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Aya Farag Badreldeen — Data Analyst Portfolio" />
-  <title>Aya Farag Badreldeen | Data Analyst Portfolio</title>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Aya Farag Badreldeen — Data Analyst Portfolio. Exploring data through Excel, Power BI, SQL and Python."
+  >
+
+  <meta
+    name="keywords"
+    content="Aya Farag Badreldeen, Data Analyst, Power BI, SQL, Excel, Python, Data Analysis"
+  >
+
+  <meta name="author" content="Aya Farag Badreldeen">
+
+  <meta
+    property="og:title"
+    content="Aya Farag Badreldeen | Data Analyst"
+  >
+
+  <meta
+    property="og:description"
+    content="Turning data into clear insights through analysis, dashboards and visualization."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <title>
+    Aya Farag Badreldeen | Data Analyst
+  </title>
+
+
+  <!-- Fonts -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
@@ -14,13 +52,25 @@
     rel="stylesheet"
   >
 
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- Styles -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
 </head>
+
 
 <body>
 
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>
+
+  <!-- Background -->
+
+  <div class="background-glow glow-one"></div>
+
+  <div class="background-glow glow-two"></div>
 
 
   <!-- =========================
@@ -29,22 +79,54 @@
 
   <header class="navbar">
 
-    <a href="#home" class="brand">
-      AYA<span>.</span>
-    </a>
+    <div class="nav-container">
 
-    <button class="menu-btn" aria-label="Open menu">
-      ☰
-    </button>
+      <a
+        href="#home"
+        class="brand"
+        aria-label="Aya home"
+      >
+        AYA<span>.</span>
+      </a>
 
-    <nav id="nav">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+
+      <nav
+        class="nav-links"
+        id="navLinks"
+      >
+
+        <a href="#about">
+          About
+        </a>
+
+        <a href="#skills">
+          Skills
+        </a>
+
+        <a href="#projects">
+          Projects
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </nav>
+
+    </div>
 
   </header>
+
 
 
   <main>
@@ -54,83 +136,171 @@
          HERO
     ========================== -->
 
-    <section id="home" class="hero section">
+    <section
+      class="hero section"
+      id="home"
+    >
 
-      <div class="hero-copy reveal">
+      <div class="hero-content reveal">
+
+
+        <div class="status-pill">
+
+          <span class="status-dot"></span>
+
+          Open to learning opportunities
+
+        </div>
+
 
         <p class="eyebrow">
           DATA ANALYST • BUSINESS INTELLIGENCE
         </p>
 
+
         <h1>
-          Turning <span>data</span><br>
-          into clear<br>
-          insights.
+
+          Turning
+
+          <span>data</span>
+
+          into clear
+
+          <strong>
+            insights.
+          </strong>
+
         </h1>
 
-        <p class="lead">
+
+        <p class="hero-description">
+
           Science student at Tanta University developing practical skills in
-          Excel, Power BI, SQL, and Python through projects and hands-on practice.
+          Excel, Power BI, SQL, and Python through hands-on projects and
+          continuous learning.
+
         </p>
 
-        <div class="hero-actions">
 
-          <a class="btn primary" href="#projects">
-            View My Work <span>↗</span>
+        <div class="hero-buttons">
+
+          <a
+            href="#projects"
+            class="btn btn-primary"
+          >
+            Explore My Work
+            <span>↗</span>
           </a>
 
-          <a class="btn ghost" href="#contact">
+
+          <a
+            href="#contact"
+            class="btn btn-outline"
+          >
             Let's Connect
           </a>
 
         </div>
 
 
-        <div class="quick-stats">
+        <div class="hero-stats">
 
-          <div>
-            <strong>4+</strong>
-            <span>CORE TOOLS</span>
+
+          <div class="stat">
+
+            <strong>
+              4+
+            </strong>
+
+            <span>
+              Core Tools
+            </span>
+
           </div>
 
-          <div>
-            <strong>3</strong>
-            <span>PROJECT IDEAS</span>
+
+          <div class="stat">
+
+            <strong>
+              3
+            </strong>
+
+            <span>
+              Project Ideas
+            </span>
+
           </div>
 
-          <div>
-            <strong>2028</strong>
-            <span>EXPECTED GRADUATION</span>
+
+          <div class="stat">
+
+            <strong>
+              2028
+            </strong>
+
+            <span>
+              Expected Graduation
+            </span>
+
           </div>
+
 
         </div>
 
       </div>
 
 
-      <!-- HERO PHOTO -->
 
-      <div class="hero-photo reveal">
+      <!-- HERO IMAGE -->
 
-        <div class="photo-frame">
+      <div class="hero-visual reveal">
 
-          <img
-            src="https://raw.githubusercontent.com/aya-farag/portfolio/main/profile.jpg"
-            alt="Aya Farag Badreldeen portrait"
-          >
+
+        <div class="image-glow"></div>
+
+
+        <div class="profile-wrapper">
+
+          <div class="profile-frame">
+
+            <img
+              src="./profile.jpg"
+              alt="Aya Farag Badreldeen"
+              loading="eager"
+            >
+
+          </div>
 
         </div>
 
 
         <div class="floating-card">
 
-          <span class="dot"></span>
+          <span class="floating-icon">
+            ✦
+          </span>
 
           <div>
-            <b>Currently learning</b>
-            <small>Data Analysis & BI</small>
+
+            <strong>
+              Currently learning
+            </strong>
+
+            <small>
+              Data Analysis & BI
+            </small>
+
           </div>
 
+        </div>
+
+
+        <div class="floating-tool tool-one">
+          SQL
+        </div>
+
+        <div class="floating-tool tool-two">
+          BI
         </div>
 
       </div>
@@ -143,70 +313,145 @@
          ABOUT
     ========================== -->
 
-    <section id="about" class="section">
+    <section
+      class="section"
+      id="about"
+    >
 
-      <div class="section-head reveal">
+      <div class="section-heading reveal">
 
-        <p class="eyebrow">
-          01 / ABOUT
-        </p>
+        <div>
 
-        <h2>
-          Curious about data.<br>
-          <em>Focused on impact.</em>
-        </h2>
-
-      </div>
-
-
-      <div class="about-grid">
-
-        <div class="about-text reveal">
-
-          <p>
-            I am a Science student at Tanta University with a strong interest in
-            Data Analysis and Business Intelligence. I enjoy organizing raw data,
-            exploring patterns, and turning results into visual stories that are
-            easy to understand.
+          <p class="eyebrow">
+            01 / ABOUT
           </p>
 
-          <p>
-            My current practice focuses on data preparation, SQL analysis,
-            interactive Power BI dashboards, and Python fundamentals for
-            structured datasets.
-          </p>
+          <h2>
+            Curious about data.
+            <br>
+
+            <em>
+              Focused on impact.
+            </em>
+          </h2>
 
         </div>
 
 
-        <div class="info-card reveal">
+        <p class="section-intro">
 
-          <div>
-            <span>Education</span>
+          I am building my foundation in data analysis by working with
+          real-world datasets, dashboards and analytical questions.
+
+        </p>
+
+      </div>
+
+
+
+      <div class="about-grid">
+
+
+        <div class="about-copy reveal">
+
+          <p>
+
+            I am a Science student at Tanta University with a strong interest
+            in Data Analysis and Business Intelligence.
+
+          </p>
+
+
+          <p>
+
+            I enjoy taking raw information, organizing it, exploring patterns,
+            and transforming the results into clear visual stories that can
+            support better understanding and decision-making.
+
+          </p>
+
+
+          <p>
+
+            My current learning journey focuses on data preparation,
+            SQL querying, Power BI dashboards, Excel analysis and Python
+            fundamentals.
+
+          </p>
+
+
+          <div class="about-highlight">
+
+            <span>
+              CURRENT FOCUS
+            </span>
 
             <strong>
-              Faculty of Science<br>
+              Data Analysis • Visualization • Business Intelligence
+            </strong>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="info-card reveal">
+
+
+          <div class="info-row">
+
+            <span>
+              Education
+            </span>
+
+            <strong>
+              Faculty of Science
+              <br>
               Tanta University
             </strong>
+
           </div>
 
 
-          <div>
-            <span>Period</span>
-            <strong>2024 — 2028</strong>
+          <div class="info-row">
+
+            <span>
+              Study Period
+            </span>
+
+            <strong>
+              2024 — 2028
+            </strong>
+
           </div>
 
 
-          <div>
-            <span>GPA</span>
-            <strong>2.98</strong>
+          <div class="info-row">
+
+            <span>
+              GPA
+            </span>
+
+            <strong>
+              2.98
+            </strong>
+
           </div>
 
 
-          <div>
-            <span>Location</span>
-            <strong>Gharbia, Egypt</strong>
+          <div class="info-row">
+
+            <span>
+              Location
+            </span>
+
+            <strong>
+              Gharbia, Egypt
+            </strong>
+
           </div>
+
 
         </div>
 
@@ -220,97 +465,235 @@
          SKILLS
     ========================== -->
 
-    <section id="skills" class="section">
+    <section
+      class="section"
+      id="skills"
+    >
 
-      <div class="section-head reveal">
+      <div class="section-heading reveal">
 
-        <p class="eyebrow">
-          02 / TOOLKIT
+        <div>
+
+          <p class="eyebrow">
+            02 / TOOLKIT
+          </p>
+
+          <h2>
+
+            Tools I use to
+
+            <br>
+
+            <em>
+              explore data.
+            </em>
+
+          </h2>
+
+        </div>
+
+
+        <p class="section-intro">
+
+          A growing toolkit built through coursework, training and
+          hands-on practice.
+
         </p>
 
-        <h2>
-          Skills I am<br>
-          <em>building every day.</em>
-        </h2>
-
       </div>
+
 
 
       <div class="skills-grid">
 
 
-        <!-- EXCEL -->
-
         <article class="skill-card reveal">
 
-          <div class="skill-icon">
-            EX
+          <div class="skill-top">
+
+            <div class="skill-icon">
+              EX
+            </div>
+
+            <span>
+              01
+            </span>
+
           </div>
+
 
           <h3>
             Microsoft Excel
           </h3>
 
+
           <p>
-            Data preparation, organization, exploration and analysis.
+
+            Data cleaning, organization, exploration and analytical work
+            using spreadsheets.
+
           </p>
+
+
+          <div class="skill-tags">
+
+            <span>
+              Cleaning
+            </span>
+
+            <span>
+              Analysis
+            </span>
+
+            <span>
+              Exploration
+            </span>
+
+          </div>
 
         </article>
 
 
-        <!-- POWER BI -->
 
         <article class="skill-card reveal">
 
-          <div class="skill-icon">
-            BI
+          <div class="skill-top">
+
+            <div class="skill-icon">
+              BI
+            </div>
+
+            <span>
+              02
+            </span>
+
           </div>
+
 
           <h3>
             Power BI
           </h3>
 
+
           <p>
-            Interactive dashboards, KPIs, trends and visual storytelling.
+
+            Interactive dashboards, KPIs, trends and visual storytelling
+            for analytical projects.
+
           </p>
+
+
+          <div class="skill-tags">
+
+            <span>
+              Dashboards
+            </span>
+
+            <span>
+              KPIs
+            </span>
+
+            <span>
+              Visualization
+            </span>
+
+          </div>
 
         </article>
 
 
-        <!-- SQL -->
 
         <article class="skill-card reveal">
 
-          <div class="skill-icon">
-            SQL
+          <div class="skill-top">
+
+            <div class="skill-icon">
+              SQL
+            </div>
+
+            <span>
+              03
+            </span>
+
           </div>
+
 
           <h3>
             SQL
           </h3>
 
+
           <p>
-            Data querying, exploration and extracting useful business information.
+
+            Querying structured datasets, filtering information and
+            extracting useful analytical insights.
+
           </p>
+
+
+          <div class="skill-tags">
+
+            <span>
+              Queries
+            </span>
+
+            <span>
+              Filtering
+            </span>
+
+            <span>
+              Analysis
+            </span>
+
+          </div>
 
         </article>
 
 
-        <!-- PYTHON -->
 
         <article class="skill-card reveal">
 
-          <div class="skill-icon">
-            PY
+          <div class="skill-top">
+
+            <div class="skill-icon">
+              PY
+            </div>
+
+            <span>
+              04
+            </span>
+
           </div>
+
 
           <h3>
             Python
           </h3>
 
+
           <p>
-            Fundamentals for data analysis and structured datasets.
+
+            Building fundamentals for data analysis and working with
+            structured datasets.
+
           </p>
+
+
+          <div class="skill-tags">
+
+            <span>
+              Fundamentals
+            </span>
+
+            <span>
+              Data
+            </span>
+
+            <span>
+              Analysis
+            </span>
+
+          </div>
 
         </article>
 
@@ -324,18 +707,40 @@
          PROJECTS
     ========================== -->
 
-    <section id="projects" class="section projects-section">
+    <section
+      class="section projects-section"
+      id="projects"
+    >
 
-      <div class="section-head reveal">
+      <div class="section-heading reveal">
 
-        <p class="eyebrow">
-          03 / FEATURED WORK
+        <div>
+
+          <p class="eyebrow">
+            03 / FEATURED WORK
+          </p>
+
+          <h2>
+
+            Dashboard work that
+
+            <br>
+
+            <em>
+              tells a story.
+            </em>
+
+          </h2>
+
+        </div>
+
+
+        <p class="section-intro">
+
+          A visual example of how I approach data exploration,
+          KPIs and business-focused reporting.
+
         </p>
-
-        <h2>
-          Dashboard work that<br>
-          <em>tells a story.</em>
-        </h2>
 
       </div>
 
@@ -345,7 +750,9 @@
 
       <article class="featured-project reveal">
 
-        <div class="project-intro">
+
+        <div class="project-header">
+
 
           <div>
 
@@ -360,18 +767,45 @@
           </div>
 
 
-          <span class="tag">
+          <span class="project-tag">
             Power BI
           </span>
 
         </div>
 
 
+
         <p class="project-description">
-          A multi-page Power BI dashboard project showcasing sales performance,
-          products, returns, customer cities, channels, drug classes and sales-team
-          performance through clean, interactive visual views.
+
+          A multi-page Power BI dashboard exploring pharmaceutical sales
+          performance across products, customers, cities, channels, drug
+          classes and sales teams.
+
         </p>
+
+
+
+        <!-- PROJECT META -->
+
+        <div class="project-meta">
+
+          <span>
+            Dashboard
+          </span>
+
+          <span>
+            Sales Analysis
+          </span>
+
+          <span>
+            KPIs
+          </span>
+
+          <span>
+            Business Insights
+          </span>
+
+        </div>
 
 
 
@@ -380,78 +814,105 @@
         <div class="dashboard-gallery">
 
 
-          <!-- DASHBOARD 1 -->
-
-          <figure class="main-shot">
+          <button
+            class="dashboard-image large"
+            data-image="./dashboard-overview.jpg"
+            aria-label="View dashboard overview"
+          >
 
             <img
-              src="https://raw.githubusercontent.com/aya-farag/portfolio/main/dashboard-overview.jpg"
-              alt="Pharmaceutical Sales Dashboard overview"
+              src="./dashboard-overview.jpg"
+              alt="Pharmaceutical Sales Dashboard — Executive Overview"
+              loading="lazy"
             >
 
-            <figcaption>
+            <span class="image-overlay">
+              View image ↗
+            </span>
+
+            <span class="image-caption">
               Executive Overview
-            </figcaption>
+            </span>
 
-          </figure>
+          </button>
 
 
 
-          <!-- DASHBOARD 2 -->
-
-          <figure>
+          <button
+            class="dashboard-image"
+            data-image="./dashboard-analysis.jpg"
+            aria-label="View dashboard analysis"
+          >
 
             <img
-              src="https://raw.githubusercontent.com/aya-farag/portfolio/main/dashboard-analysis.jpg"
-              alt="Sales analysis dashboard"
+              src="./dashboard-analysis.jpg"
+              alt="Pharmaceutical Sales Dashboard — Sales Analysis"
+              loading="lazy"
             >
 
-            <figcaption>
+            <span class="image-overlay">
+              View image ↗
+            </span>
+
+            <span class="image-caption">
               Sales Analysis
-            </figcaption>
+            </span>
 
-          </figure>
+          </button>
 
 
 
-          <!-- DASHBOARD 3 -->
-
-          <figure>
+          <button
+            class="dashboard-image"
+            data-image="./dashboard-team.jpg"
+            aria-label="View dashboard team analysis"
+          >
 
             <img
-              src="https://raw.githubusercontent.com/aya-farag/portfolio/main/dashboard-team.jpg"
-              alt="Sales team dashboard"
+              src="./dashboard-team.jpg"
+              alt="Pharmaceutical Sales Dashboard — Sales Team"
+              loading="lazy"
             >
 
-            <figcaption>
-              Sales Team
-            </figcaption>
+            <span class="image-overlay">
+              View image ↗
+            </span>
 
-          </figure>
+            <span class="image-caption">
+              Sales Team
+            </span>
+
+          </button>
+
 
         </div>
 
 
 
-        <!-- PROJECT POINTS -->
+        <!-- PROJECT HIGHLIGHTS -->
 
-        <div class="project-points">
+        <div class="project-highlights">
+
 
           <span>
             KPI storytelling
           </span>
 
+
           <span>
             Interactive analysis
           </span>
+
 
           <span>
             Sales segmentation
           </span>
 
+
           <span>
             Decision support
           </span>
+
 
         </div>
 
@@ -463,7 +924,8 @@
 
       <div class="roadmap">
 
-        <div class="roadmap-title">
+
+        <div class="roadmap-heading reveal">
 
           <p class="eyebrow">
             PROJECT ROADMAP
@@ -473,15 +935,19 @@
             What's next
           </h3>
 
+          <p>
+            More analytical projects are currently being developed.
+          </p>
+
         </div>
 
 
 
         <article class="roadmap-card reveal">
 
-          <span>
+          <div class="roadmap-number">
             02
-          </span>
+          </div>
 
           <div>
 
@@ -495,15 +961,19 @@
 
           </div>
 
+          <span class="roadmap-arrow">
+            →
+          </span>
+
         </article>
 
 
 
         <article class="roadmap-card reveal">
 
-          <span>
+          <div class="roadmap-number">
             03
-          </span>
+          </div>
 
           <div>
 
@@ -512,10 +982,14 @@
             </h4>
 
             <p>
-              Excel + Power BI · Trends · Top products · Insights
+              Excel + Power BI · Trends · Top Products · Insights
             </p>
 
           </div>
+
+          <span class="roadmap-arrow">
+            →
+          </span>
 
         </article>
 
@@ -523,9 +997,9 @@
 
         <article class="roadmap-card reveal">
 
-          <span>
+          <div class="roadmap-number">
             04
-          </span>
+          </div>
 
           <div>
 
@@ -534,12 +1008,17 @@
             </h4>
 
             <p>
-              SQL + Power BI · Purchasing behavior · Segments
+              SQL + Power BI · Purchasing Behavior · Segments
             </p>
 
           </div>
 
+          <span class="roadmap-arrow">
+            →
+          </span>
+
         </article>
+
 
       </div>
 
@@ -551,43 +1030,97 @@
          CONTACT
     ========================== -->
 
-    <section id="contact" class="contact section">
+    <section
+      class="contact section"
+      id="contact"
+    >
 
-      <div class="contact-inner reveal">
+      <div class="contact-box reveal">
+
 
         <p class="eyebrow">
           04 / CONTACT
         </p>
 
+
         <h2>
-          Let's turn data into<br>
-          <em>something meaningful.</em>
+
+          Let's turn data into
+
+          <br>
+
+          <em>
+            something meaningful.
+          </em>
+
         </h2>
 
-        <p>
-          Open to learning opportunities, data projects and collaborations.
+
+        <p class="contact-text">
+
+          Open to learning opportunities, data projects,
+          internships and collaborations.
+
         </p>
 
 
-        <div class="contact-links">
+        <div class="contact-buttons">
 
-          <a href="mailto:ayabadr748@gmail.com">
-            ayabadr748@gmail.com
+
+          <a
+            href="mailto:ayabadr748@gmail.com"
+            class="contact-btn primary-contact"
+          >
+
+            <span>
+              Email Me
+            </span>
+
+            <strong>
+              ↗
+            </strong>
+
           </a>
 
 
           <a
             href="https://www.linkedin.com/in/ayafarag"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
+            class="contact-btn"
           >
-            LinkedIn ↗
+
+            <span>
+              LinkedIn
+            </span>
+
+            <strong>
+              ↗
+            </strong>
+
           </a>
+
+
+        </div>
+
+
+        <div class="contact-details">
+
+
+          <a href="mailto:ayabadr748@gmail.com">
+            ayabadr748@gmail.com
+          </a>
+
+
+          <span>
+            Gharbia, Egypt
+          </span>
 
 
           <a href="tel:+201140825486">
             +20 114 082 5486
           </a>
+
 
         </div>
 
@@ -605,21 +1138,63 @@
 
   <footer>
 
+    <div>
+
+      <strong>
+        AYA<span>.</span>
+      </strong>
+
+      <p>
+        Data Analyst Portfolio
+      </p>
+
+    </div>
+
+
     <span>
       © 2026 Aya Farag Badreldeen
     </span>
 
-    <span>
-      Data Analyst Portfolio
-    </span>
+
+    <a href="#home">
+      Back to top ↑
+    </a>
 
   </footer>
 
 
 
-  <!-- JAVASCRIPT -->
+  <!-- IMAGE LIGHTBOX -->
+
+  <div
+    class="lightbox"
+    id="lightbox"
+    aria-hidden="true"
+  >
+
+    <button
+      class="lightbox-close"
+      id="lightboxClose"
+      aria-label="Close image"
+    >
+      ×
+    </button>
+
+
+    <img
+      id="lightboxImage"
+      src=""
+      alt="Dashboard preview"
+    >
+
+  </div>
+
+
+
+  <!-- JavaScript -->
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
